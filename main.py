@@ -2,7 +2,7 @@ import sys
 import math
 import matplotlib.pyplot as plt
 
-RATE_OF_FIRE = 8  # Shots per second
+RATE_OF_FIRE = 5  # Shots per second
 AREA_OF_BULLET = 1/40  # Relative to drawing window
 BULLET_MAX_ABS = {"x": math.inf, "y": math.inf}  # determines bullet size. Used for redrawing sight
 RANDOM_FACTOR = 0.25  # Determines how much a weapons should deviates
